@@ -8,7 +8,7 @@ const pxlTableWidth = document.querySelector('#inputWidth');
 // When size is submitted by the user, call makeGrid()
 document
   .getElementById('sizePicker')
-  .addEventListener('submit', function makegrid(evt) {
+  .addEventListener('submit', function makeGrid(evt) {
     // Select the <table> element
     const pxlTable = document.querySelector('table');
     // Get the Height value as string
