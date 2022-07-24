@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="description" content="Udacity - Project 3 - Pixel Art Maker" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Rey A. Robles II" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Pixel Art Maker!</title>
     <link
       rel="stylesheet"
@@ -15,9 +20,23 @@
     <h2>Choose Grid Size</h2>
     <form id="sizePicker">
       Grid Height:
-      <input type="number" id="inputHeight" name="height" min="1" value="1" />
+      <input
+        type="number"
+        id="inputHeight"
+        name="height"
+        min="1"
+        max="100"
+        value="1"
+      />
       Grid Width:
-      <input type="number" id="inputWidth" name="width" min="1" value="1" />
+      <input
+        type="number"
+        id="inputWidth"
+        name="width"
+        min="1"
+        max="100"
+        value="1"
+      />
       <input type="submit" />
     </form>
 

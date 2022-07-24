@@ -1,20 +1,21 @@
+// Select color input
+const pxlColor = document.querySelector('#colorPicker');
+
+// Select size input - Height and Width
+const pxlTableHeight = document.querySelector('#inputHeight');
+const pxlTableWidth = document.querySelector('#inputWidth');
+
+// Select the <table> element
+const pxlTable = document.querySelector('table');
+
 // When size is submitted by the user, call makeGrid()
 document
   .getElementById('sizePicker')
   .addEventListener('submit', function makeGrid(evt) {
-    // Select color input
-    const pxlColor = document.querySelector('#colorPicker');
-
-    // Select size input - Height and Width
-    const pxlTableHeight = document.querySelector('#inputHeight');
-    const pxlTableWidth = document.querySelector('#inputWidth');
     // Get the Height value as string
     const height = pxlTableHeight.value;
     // Get the Width value as string
     const width = pxlTableWidth.value;
-
-    // Select the <table> element
-    const pxlTable = document.querySelector('table');
 
     pxlTable.innerHTML = ''; // Refresh the HTML Table
     evt.preventDefault(); // Prevent Page Reload
