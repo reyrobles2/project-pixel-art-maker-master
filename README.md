@@ -9,7 +9,7 @@ Users should be able to:
 2. Choose a color.
 3. Click a cell in the grid to fill that cell with the chosen color.
 
-Acknowledgement to the following sources:
+##### Acknowledgement to the following sources:
 
 - Udacity - Cognizant Full Stack Developer Nanodegree Program
   https://www.udacity.com/
